@@ -1,0 +1,13 @@
+# Python virtual environment
+backend/.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Expo dependencies
+node_modules/
+.expo/
