@@ -5,13 +5,13 @@ import json
 import websockets
 
 async def test():
-    url = "ws://127.0.0.1:8000/ws"
+    url = "wss://miniproject1-photochat.onrender.com/ws"
 
     async with websockets.connect(url) as client1:
         async with websockets.connect(url) as client2:
             message = {
                 "type": "photo_selected",
-                "url": "http://127.0.0.1:8000/images/test.jpg"
+                "url": "https://miniproject1-photochat.onrender.com/images/test.jpg"
             }
 
             await client1.send(json.dumps(message))
