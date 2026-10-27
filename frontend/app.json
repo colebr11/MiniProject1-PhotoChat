@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Photo Chat",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
